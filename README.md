@@ -1,4 +1,4 @@
-how to use
+- how to use
 
 - install python
 - search cmd on hotbar
