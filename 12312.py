@@ -61,7 +61,7 @@ def run_macro():
 
 
 def main():
-    print(f"Press {key_to_toggle} to TOGGLE KIRACRO.")
+    print(f"Bấm {key_to_toggle} để dùng toggle.")
     print(title)
 
     with keyboard.Listener(on_press=on_press) as listener:
