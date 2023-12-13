@@ -26,7 +26,7 @@ title = Fore.RED + """
 """ + Fore.LIGHTMAGENTA_EX + "KURO??" + Fore.CYAN + "KURO??" + Fore.RED + "PYTHON 12A13" + Fore.RESET
 os.system("cls")
 print(Fore.GREEN+"EXE VERSION!!"+Fore.RESET)
-key_to_toggle = input(Fore.YELLOW+"What would you like the key to toggle the macro to be?: ").lower()
+key_to_toggle = input(Fore.YELLOW+"nhập cái key của bạn để toggle: ").lower()
 
 toggle_enabled = False
 
@@ -47,9 +47,9 @@ def print_status():
     print(title)
     print("------------------------------------------")
     if toggle_enabled:
-        print(Fore.GREEN + "KIRACRO STARTED" + Fore.RESET)
+        print(Fore.GREEN + "KURCO STARTED" + Fore.RESET)
     else:
-        print(Fore.RED + "KIRACRO STOPPED" + Fore.RESET)
+        print(Fore.RED + "KURCO STOPPED" + Fore.RESET)
 
 
 def run_macro():
